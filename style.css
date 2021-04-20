@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+* {font-family: 'Droid Arabic Naskh', serif;}
+ .buttonGo {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: hsl(61, 76%, 50%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttonGo:hover {background-color: rgb(230, 144, 15)}
+  
+  .buttonGo:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(187, 219, 42);
+    transform: translateY(4px);
+  } 
+.complet:after{ 
+    content: ' \2714';
+    font-size: 2rem;
+    color: hsl(22, 69%, 51%);
+    
+ }
+ .buttonload {
+  background-color: hsl(27, 76%, 49%); /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 22px; /* Some padding */
+  font-size: 20px; /* Set a font-size */
+}
+/* Add a right margin to each icon */
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
