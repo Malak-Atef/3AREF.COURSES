@@ -146,39 +146,82 @@ footer h3{
     background-color: #c91d1d;
   }
 
+
+
+  /* Portfolio Gallery */
+
   * {
     box-sizing: border-box;
   }
   
-  .caption {
+
+  .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 25%;
+    padding: 10px;
   }
   
-  /* Clearfix (clear floats) */
-  .imageContainer::after {
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
     content: "";
-    clear: both;
     display: table;
-  }
-  .caption{
-    width: 300px;
-    height: 300px;
-  }
-  .caption > img:hover {
+    clear: both;
     
-    width: 900px;
-    height: 506px;
-    top: 30px; 
-    left: 225px; 
-    background-size: cover; 
-    position: fixed;
-    
-
   }
-  .ex2:hover, .ex2:active {
-    font-size: 150%;
-    color: red;
-    font-weight: bolder;
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+    
+  }
+  .container1 {
+    position: relative;
+    display: none;
+    
+  }
+  .container2 {
+    position: relative;
+    display: none;
+    
+  }
+  .container3 {
+    position: relative;
+    display: none;
+    
+  }
+  .container4 {
+    position: relative;
+    display: none;
+    
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #ffffff;
+    font-size: 35px;
+    cursor: pointer;
   }
