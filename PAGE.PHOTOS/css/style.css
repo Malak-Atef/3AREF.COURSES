@@ -186,26 +186,8 @@ footer h3{
     display: none;
     
   }
-  .container1 {
-    position: relative;
-    display: none;
-    
-  }
-  .container2 {
-    position: relative;
-    display: none;
-    
-  }
-  .container3 {
-    position: relative;
-    display: none;
-    
-  }
-  .container4 {
-    position: relative;
-    display: none;
-    
-  }
+
+  
   
   /* Expanding image text */
   #imgtext {

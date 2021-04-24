@@ -49,7 +49,8 @@
 }
 
 #dropdown {
-  position: relative;
+  font-size: small;
+  position: fixed;
   display: inline-block;
 }
 
@@ -67,15 +68,15 @@
   font-family: system-ui;
   font-weight: bolder;
   text-align: left;
-  color: #030200;
+  color: #332100;
   padding: 6px 5px;
   background-color: #d4d4d8;
   text-decoration: none;
   display: block;
 }
 
-#dropdown-content a:hover { background-color: hsl(66, 79%, 54%);}
+#dropdown-content a:hover { background-color: rgb(75, 77, 65);}
 
 #dropdown:hover #dropdown-content {display: block;}
 
-#dropdown:hover #dropbtn {background-color: #3e8e41;}
+#dropdown:hover #dropbtn {background-color: #332100;}
