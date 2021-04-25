@@ -7,6 +7,9 @@ body{
   background: hsla(0, 0%, 100%, 0.781);
   height: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 h1{
   font-weight: 400;

@@ -8,6 +8,10 @@ body{
   height: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1{
   font-weight: 400;
   font-size: 2.5rem;
@@ -93,10 +97,6 @@ main{
   padding: 0 1rem;
 }
 
-.caption{
-  padding: 0.8rem;
-  text-align: center;
-}
 
 footer{
   text-align: center;
@@ -130,6 +130,7 @@ footer h3{
   .btn{
     padding: 1rem 3rem;
   }
+
 }
 
 
@@ -188,22 +189,98 @@ footer h3{
   }
 
   
+  body{margin: 0}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  background: teal;
+  padding: 15px;
+}
+.container img {
+  width: 100%;
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all 100ms ease-out;
+}
+.container img:hover {
+  transform: scale(1.04);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+
+
+/* Footer */
+
+.footer{
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+.footer p {
+    margin: 10px 0;
+  font-family: 'Raleway', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer .fa-heart{
+    color: red;
+}
+.footer .fa-codepen{
+  color:#fff
+}
+.footer a {
+   color: #3c97bf;
+   text-decoration: none;
+  margin-right:5px;
+}
+
+
+body {
+  margin: 0;
   
-  /* Expanding image text */
-  #imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-  }
-  
-  /* Closable button inside the expanded image */
-  .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: #ffffff;
-    font-size: 35px;
-    cursor: pointer;
-  }
+}
+
+.topnav {
+  padding-left: 226px;
+  overflow: auto;
+  width: 91.5%;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(29 16 7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+@media(max-width: 700px) {
+  .topnav {
+    padding-left: 6px;
+    overflow: auto;
+    display: inline-block;
+    padding: 0px;
+ }
+ .topnav a {
+  display:block;
+  text-align: center;
+  float: none;
+}
+}
