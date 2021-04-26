@@ -100,5 +100,21 @@ a:hover::before{
   }
   
 }
+.go-top {
+  right:1em;
+  bottom:2em;
+  color:#e75b5b;
+  text-decoration:none;
+  padding:5px;
+  border-radius:45px;
+  border:1px solid #e0e0e0;
+  position:fixed;
+  font-size: 1.2rem;
 
-
+}
+.go-top:hover {
+  transition: 1s ease-in-out;
+  background: #f303039a;
+  color: rgb(215, 231, 66);
+  font-weight: bolder;
+}
