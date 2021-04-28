@@ -69,19 +69,18 @@ main{
 }
 
 .btn{
-  padding: 0.5rem 2rem;
-  border: 1px #ccc solid;
-  display: inline-block;
-  margin: 2rem 0 0;
-  border-radius: 50px;
-  text-decoration: none;
-  color: rgb(39, 30, 30);
-  transition: background 500ms ease;
-  background: #e73e3e;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 5px 11px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
-.btn:hover{
-  background: rgb(165, 10, 10);
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
 
 #header{
@@ -137,17 +136,17 @@ footer h3{
 }
 
 
-  .pdf a:link, a:visited {
+  .pdf a:visited {
     background-color: #f44336;
     color: white;
-    padding: 14px 25px;
+    padding: 4px 19px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
   
   a:hover, a:active {
-    background-color: #c91d1d;
+    
   }
 
   * {

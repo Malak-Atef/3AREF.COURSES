@@ -98,7 +98,10 @@ a:hover::before{
       display: inline-block;
        
   }
-  
+  html {
+    scroll-behavior: smooth;
+    width: 100%;
+  }
   
 }
 .go-top {
@@ -118,4 +121,18 @@ a:hover::before{
   background: #f303039a;
   color: rgb(215, 231, 66);
   font-weight: bolder;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
