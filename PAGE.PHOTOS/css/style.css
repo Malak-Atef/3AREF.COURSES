@@ -284,21 +284,25 @@ body {
 }
 
 .go-top {
-  right:1em;
-  bottom:2em;
-  color:#e75b5b;
-  text-decoration:none;
-  padding:5px;
-  border-radius:45px;
-  border:1px solid #ff4141;
-  position:fixed;
-  font-size: 1.2rem;
-  background-color: rgba(255, 255, 255, 0.493);
+  position: fixed;
+  z-index: 889;
+  bottom: 17px;
+  right: 10px;
+  width: 44px;
+  height: 39px;
+  text-align: center;
+  line-height: 41px;
+  border-radius: 50%;
+  opacity: 0.8;
+  box-shadow: 0px 0px 5px 1px;
+  transition: opacity 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
 
-}
-.go-top:hover {
-  transition: 1s ease-in-out;
-  background: #008080;
-  color: rgb(215, 231, 66);
-  font-weight: bolder;
-}
+  }
+  
+  .go-top:hover {
+  opacity: 1;
+  cursor: pointer;
+  }
+
+  

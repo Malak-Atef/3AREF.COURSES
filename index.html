@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 </head>
-<body class="text-gray-800 antialiased">
+<body id="all" class="text-gray-800 antialiased">
   
   
   <!-- End of Navigation -->
@@ -27,8 +27,8 @@
     <h1><a href="https://www.facebook.com/groups/425229164261312/?multi_permalinks=3796820627102132&notif_id=1618606366839306&notif_t=group_activity&ref=notif" target="_blank">كورسات عـــــارف</a></h1>
     <ul>
       <li><a data-text="ABOUT US" href="#aboutUs">ABOUT US</a></li>
-      <li><a data-text="3AREF 1" href="#programs">3AREF 1 </a></li>
-      <li> <a data-text="3AREF 2" href="#programs2">3AREF 2</a> </li>
+      <li><a data-text="3AREF 1" href="PAGE.PHOTOS/PHOTOS.html">3AREF 1 </a></li>
+      <li> <a data-text="3AREF 2" href="3aref2/index.html">3AREF 2</a> </li>
       <li><a data-text="CONTACT US" href="#Contactt">CONTACT US</a></li>
       <li><a data-text="Mobile App" href="#app">Mobile App</a></li>
 
@@ -494,8 +494,8 @@
           <div class="w-full lg:w-6/12 px-4">
             <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
               <div id="contact" class="flex-auto p-5 lg:p-10">
-                <h4 class="text-2xl font-semibold"> Contact Form</h4>
-                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                <h4 class="text-2xl font-semibold" style="text-align: center;"> نموذج التسجيل</h4>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600" style="text-align: center;">
                   Send us a message and we'll respond within 48 hours.
                 </p>
                 <!-- Name -->
@@ -548,9 +548,10 @@
                     class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     type="submit"
                     value="Send"
-                    style="transition: all 0.15s ease 0s;"
+                    style="transition: all 0.15s ease 0s;
+                      background: #0b9da0;"
                   >
-                    Send Message
+                  سجل الآن
                   </button>
                 </div>
               </form>
@@ -629,7 +630,8 @@
         </div>
       </div>
     </div>
-    <a href="#" id="top" class="go-top">Top ↑</a>
+    <button onclick="topFunction()" id="top" class="go-top" title="Go to top">Top↑</button>
+
     
   </footer>
   <!-- End of Footer Section -->
