@@ -136,7 +136,7 @@ hr {
     width: 75%;
 
   }.topleft{
-    font-size: 2rem;
+    font-size: 2git rem;
     top: -79%;
     left: 9%;
     right: 2%;
@@ -147,23 +147,21 @@ hr {
     height: 100%;
     width: 100%;
     margin: 0%;
-    box-sizing: border-box;
+ 
 
   }.bottomleft {
-    left: 42%;
-    bottom: 130px;
-    font-size: 12px;
+    left: 30%;
+    bottom: 242px;
+    font-size: 16px;
    position: relative;
   }h1{
 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
 
   }#demo{
 
-    font-size: 22px;
-  }*{
-    box-sizing: border-box;
+    font-size: 20px;
   }
  }
  
