@@ -136,7 +136,7 @@ hr {
     width: 75%;
 
   }.topleft{
-    font-size: 2.5rem;
+    font-size: 2rem;
     top: -79%;
     left: 9%;
     right: 2%;
@@ -147,6 +147,7 @@ hr {
     height: 100%;
     width: 100%;
     margin: 0%;
+    box-sizing: border-box;
 
   }.bottomleft {
     left: 42%;
@@ -161,6 +162,8 @@ hr {
   }#demo{
 
     font-size: 22px;
+  }*{
+    box-sizing: border-box;
   }
  }
  
