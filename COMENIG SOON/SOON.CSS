@@ -142,17 +142,24 @@ hr {
     right: 2%;
     display: inline-block;
 
-  }html {
+  }body, html {
+
     height: 100%;
     width: 100%;
     margin: 0%;
+
   }.bottomleft {
     left: 42%;
+    bottom: 130px;
     font-size: 12px;
    position: relative;
   }h1{
-    font-size: 46px;
+
+    font-size: 30px;
+    font-weight: bolder;
+
   }#demo{
+
     font-size: 22px;
   }
  }
