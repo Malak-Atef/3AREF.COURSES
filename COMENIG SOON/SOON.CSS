@@ -1,7 +1,8 @@
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 
 body, html {
-  height: 100%
+  height: 100%;
+  margin: 0%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
@@ -111,24 +112,36 @@ hr {
   background-size: cover;
 }
 
+#demo {
+  font-size: 40px;
+}
+
 @media(max-width: 700px) {
   .bg-image {
     height: 110%;
     width: 110%;
+    background-image:url(../photos/soonmobile.jpg);
   } .bgimg {
-    padding: 110px;
+    padding: 85px; 
+     width: 53%;
+
   }.topleft{
     font-size: 1.5rem;
-    top: -48%;
-    left: 26px;
+    top: -78%;
+    left: 23px;
     right: 2%;
 
   }html {
-    scroll-behavior: smooth;
+    
     width: 100%;
+    margin: 0%;
   }.bottomleft {
-   left: 35%;
+   left: 28%;
    position: relative;
+  }h1{
+    font-size: 29px;
+  }#demo{
+    font-size: 18px;
   }
  }
  
