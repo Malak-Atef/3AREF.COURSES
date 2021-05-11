@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="photos/3AREF1.jpeg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bible</title>
+    <style>
+       @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+.button {
+    height: 30px;
+    background-color: #3b3333;
+    border: none;
+    position: inherit;
+    transform: translate(431%, -4%);
+    display: inline-block;
+    transition: all 0.8s;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:before, .button:after {
+    content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    border:0px solid tomato;
+}
+.button:before {
+    top:-2px;
+    right:-2px;
+}
+.button:after {
+    bottom:-2px;
+    left:-2px;
+}
+.button:hover:before, .button:hover:after {
+    width:100%;
+    height:100%;
+    border:2px solid tomato;
+}
+.button:hover:before {
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+    transition: width 0.4s 0s, height 0.4s 0.4s;
+}
+.button:hover:after {
+    border-top-color:transparent;
+    border-left-color:transparent;
+    transition: width 0.4s 0.8s, height 0.4s 1.2s, border 0s 0.8s;
+}
+.button:hover {
+    background:transparent;
+}
+html{
+    margin: -5px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+a{
+color: rgb(182, 74, 74);
+}
+.fa-home:before {
+   color:tomato;
+}
+@media(max-width:700px){
+    .button {
+    height: 28px;
+    background-color: #3b3333;
+    border: none;
+    position: inherit;
+    transform: translate(134%, 0%);
+    display: inline-block;
+    transition: all 0.8s;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0%;
+    margin: 0%;}
+}  
+.bible{
+    width: 100%;
+    height: 1035px;
+    margin: 0%;
+    padding: 0%;
+}
+
+    </style>
+</head>
+<body> <div style="background-color: #3b3333; padding: 1px;">
+   <button class="button"> <a id="bttn" href="index.html" class="fa fa-home"> HOME PAGE </a> </button>
+</div>
+    <iframe class="bible" src="https://www.bible.com/ar/bible/13/GEN.1.AVD" frameborder="0"></iframe>
+</body>
+</html>
