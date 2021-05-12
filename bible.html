@@ -12,7 +12,7 @@
        @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 .button {
     height: 30px;
-    background-color: #3b3333;
+    background: white;
     border: none;
     position: inherit;
     transform: translate(431%, -4%);
@@ -26,7 +26,7 @@
     position:absolute;
     height:0;
     width:0;
-    border:0px solid tomato;
+    border:0px solid rgb(0, 0, 0);
 }
 .button:before {
     top:-2px;
@@ -39,7 +39,7 @@
 .button:hover:before, .button:hover:after {
     width:100%;
     height:100%;
-    border:2px solid tomato;
+    border:2px solid rgb(0, 0, 0);
 }
 .button:hover:before {
     border-bottom-color:transparent;
@@ -61,15 +61,15 @@ body{
     background-color: rgb(255, 255, 255);
 }
 a{
-color: rgb(182, 74, 74);
+    color: #444;
 }
 .fa-home:before {
-   color:tomato;
+    color: #444;
 }
 @media(max-width:700px){
     .button {
     height: 28px;
-    background-color: #3b3333;
+    background: white;
     border: none;
     position: inherit;
     transform: translate(134%, 0%);
@@ -89,7 +89,8 @@ color: rgb(182, 74, 74);
 
     </style>
 </head>
-<body> <div style="background-color: #3b3333; padding: 1px;">
+<body> 
+    <div style="background: white;; padding: 1px;">
    <button class="button"> <a id="bttn" href="index.html" class="fa fa-home"> HOME PAGE </a> </button>
 </div>
     <iframe class="bible" src="https://www.bible.com/ar/bible/13/GEN.1.AVD" frameborder="0"></iframe>

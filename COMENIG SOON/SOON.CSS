@@ -137,8 +137,8 @@ hr {
 
   }.topleft{
     font-size: 2git rem;
-    top: -79%;
-    left: 9%;
+    top: -81%;
+    left: 2%;
     right: 2%;
     display: inline-block;
 
@@ -150,9 +150,9 @@ hr {
  
 
   }.bottomleft {
-    left: 30%;
-    bottom: 242px;
-    font-size: 16px;
+    left: 36%;
+    bottom: 336px;
+    font-size: 18px;
    position: relative;
   }h1{
 
